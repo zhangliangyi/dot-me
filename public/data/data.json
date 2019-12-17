@@ -1,0 +1,147 @@
+{
+  "name": "张良毅",
+  "name_en": "Jacob Zhang",
+  "job": "Lead UI Engineer",
+  "company": "SAP Successfactors",
+  "bio": "The Simplest, The Best",
+  "IDE": "WebStorm",
+  "location": "Shanghai, CN",
+  "birthday": "1985-10-17",
+  "startWork": "2008-07-01",
+  "github": "https://github.com/zhangliangyi",
+  "linkedin": "https://www.linkedin.com/in/zhangliangyi/",
+  "mail": "zhang.liangyi@outlook.com",
+  "experiences": [
+    {
+      "id": "sap",
+      "name": "SAP Successfactors",
+      "current": true,
+      "start": "2014/04",
+      "logo": "/images/sf.png",
+      "items": [
+        {
+          "title": "Lead UI Engineer",
+          "desc": "Key member of UI Commons Shanghai Team. Working on SuccessMap Homepage, legacy UI refactoring, Node.js and Karma adoption."
+        },
+        {
+          "title": "Senior UI Engineer II",
+          "desc": "Working on BizX ToDo framework."
+        },
+        {
+          "title": "Senior UI Engineer",
+          "desc": "Working on BizX Platform UIs."
+        }
+      ],
+      "tags": [
+        "Enterprise",
+        "Node.js",
+        "Node.js cli",
+        "Testing",
+        "Karma",
+        "Gulp",
+        "Refactoring",
+        "React",
+        "SAPUI5",
+        "OData"
+      ]
+    },
+    {
+      "id": "cisco",
+      "name": "Cisco Systems",
+      "start": "2013/10",
+      "end": "2014/03",
+      "logo": "/images/cisco.png",
+      "items": [
+        {
+          "title": "Software Engineer",
+          "desc": "Working on real-time data visualization POCs."
+        }
+      ],
+      "tags": [
+        "Business Intelligence",
+        "Real-time",
+        "Angular",
+        "Data Visualization"
+      ]
+    },
+    {
+      "id": "icbc",
+      "name": "ICBC, Software Development Center",
+      "start": "2008/07",
+      "end": "2013/09",
+      "logo": "/images/icbc.png",
+      "items": [
+        {
+          "title": "Senior Developer",
+          "desc": "Building B/S web applications for operational risk monitoring."
+        },
+        {
+          "title": "Developer",
+          "desc": "Building B/S web applications for operational risk monitoring."
+        }
+      ],
+      "tags": [
+        "Enterprise",
+        "jQuery",
+        "Java",
+        "SQL",
+        "Refactoring"
+      ]
+    },
+    {
+      "id": "sjtu",
+      "name": "Shanghai Jiaotong University",
+      "start": "2004/09",
+      "end": "2008/06",
+      "logo": "/images/sjtu.png",
+      "items": [
+        {
+          "title": "Bachelor",
+          "desc": "Information Security"
+        }
+      ]
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "react",
+      "avatar": {
+        "type": "icon",
+        "value": "github"
+      },
+      "title": "Fiori React Sample",
+      "href": "https://github.com/zhangliangyi/fiori-react-sample",
+      "description": "A clone version of SuccessMap with React and Redux."
+    },
+    {
+      "id": "xpm",
+      "avatar": {
+        "type": "image",
+        "src": "/images/nodejs.ico"
+      },
+      "title": "xpm - bizX Package Manager",
+      "description": "A Node.js cli like npm to convert legacy BizX web module to standard package.",
+      "screenshot": "/images/xpm.png"
+    },
+    {
+      "id": "homepage",
+      "avatar": {
+        "type": "image",
+        "src": "/images/sf.png"
+      },
+      "title": "SuccessMap Homepage",
+      "description": "The SuccessFactors Home Page is the default start page of the SAP SuccessFactors HXM Suite. On the home page you can view pending deadlines, outstanding issues, and valuable team metrics and business analytics. It provides an overview of activity across the SAP SuccessFactors HXM Suite and helps you to take action quickly when necessary.",
+      "screenshot": "/images/homepage.png"
+    },
+    {
+      "id": "icbc",
+      "avatar": {
+        "type": "image",
+        "src": "/images/icbc-logo.png"
+      },
+      "title": "Business Operation Risk Management System",
+      "description": "Automatically scan the daily transaction of ICBC with specific risk models to find potential risks, such as internal crimes and non-standard operation, and confirm the risks with both automatic and manual procedures.",
+      "screenshot": "/images/rma.jpeg"
+    }
+  ]
+}

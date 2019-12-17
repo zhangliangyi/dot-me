@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'Roboto Slab';
+  src: url("/fonts/RobotoSlab-Light.ttf") format("truetype");
+}
+
+.App {
+  background: url("/images/bg.png") fixed;
+  background-size: cover;
+}
+
+.content {
+  margin: 2rem auto;
+  max-width: 960px;
+  width: 100%;
+  padding: 2rem;
+  background-color: #fff;
+}
+
+.subjectContainer {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.row {
+  margin-bottom: 1rem;
+}
+
+.shortcuts i {
+  font-size: 1.5rem;
+}
+
+.exps {
+  padding: 1rem;
+}
+
+.exp {
+  margin-bottom: .75rem;
+}
+
+.exp h4 {
+  line-height: 1;
+}
+
+.exp img {
+  width: 100%;
+  max-width: 96px;
+}
+
+.ant-tag {
+  margin-top: 8px;
+}
+
+.bio {
+  margin-top: 1rem;
+  font-family: 'Roboto Slab', serif;
+}
+
+.ant-layout,
+.ant-layout-footer {
+  background: transparent;
+}
+
+.ant-layout-footer {
+  color: #fff;
+}
