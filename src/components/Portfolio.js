@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import cx from 'classnames';
 import {
   Row,
   Radio,
@@ -29,7 +28,7 @@ function Portfolio(props) {
 
   return (
     <div>
-      <Row className={cx('row')} type="flex" justify="end">
+      <Row className="row" type="flex" justify="end">
         <Radio.Group defaultValue={display} buttonStyle="solid" size="small" onChange={e => setDisplay(e.target.value)}>
           <Radio.Button value="carousel">
             <Icon type="profile"/>

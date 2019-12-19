@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import {Divider, Layout} from 'antd';
-import cx from 'classnames';
+import axios from 'axios';
 
 import {
   Subject,
@@ -17,15 +17,8 @@ function App() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch('/data/data.json').then(res => {
-      if (res.status !== 200) {
-        console.log(`Looks like there was a problem. Status Code: ${res.status}`);
-        return;
-      }
-
-      res.json().then(data => {
-        setData(data);
-      });
+    axios.get('/data/data.json').then(res => {
+      setData(res.data);
     }).catch(err => {
       console.log('Fetch Error :-S', err);
     });
@@ -34,7 +27,7 @@ function App() {
   return (
     <div className="App">
       <Layout className="layout">
-        <Content className={cx('content')}>
+        <Content className="content">
           <Subject data={data}/>
 
           <Divider>EXPERIENCES</Divider>
