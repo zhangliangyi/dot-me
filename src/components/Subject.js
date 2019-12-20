@@ -1,5 +1,4 @@
 import React from 'react';
-import cx from 'classnames';
 import {
   Avatar,
   Row,
@@ -44,11 +43,11 @@ function Subject(props) {
     <div className="subjectContainer">
       <Shortcuts data={data}/>
 
-      <Row className={cx('row')}>
+      <Row className="row">
         <Avatar size={200} src="/images/avatar.jpeg"/>
       </Row>
 
-      <Row className={cx('row')}>
+      <Row className="row">
         <Col>
           <Title>{data.name}</Title>
           <Title level={2} style={{marginTop: 0}}>{data['name_en']}</Title>
@@ -60,13 +59,13 @@ function Subject(props) {
         </Col>
       </Row>
 
-      <Row className={cx('row')}>
+      <Row className="row">
         <Col>
           <Title type="secondary" className="bio" level={2}>{data.bio}</Title>
         </Col>
       </Row>
 
-      <Row className={cx('row')}>
+      <Row className="row">
         <Col span={6}>
           <Statistic title="Age" value={getYears(data.birthday)}/>
         </Col>

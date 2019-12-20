@@ -1,4 +1,3 @@
-import cx from 'classnames';
 import {Button, Icon, Row} from 'antd';
 import React from 'react';
 
@@ -6,7 +5,7 @@ function Shortcuts(props) {
   const data = props.data;
 
   return (
-    <Row className={cx('row', 'shortcuts')} type="flex" align="middle" justify="end">
+    <Row className="row shortcuts" type="flex" align="middle" justify="end">
       {data && data.github &&
       <Button type="link" href={data.github} target="_blank">
         <Icon type="github"/>
