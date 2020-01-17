@@ -4,7 +4,7 @@
 }
 
 .App {
-  background: url("/images/bg.png") fixed;
+  background: url("/images/bg.svg") fixed;
   background-size: cover;
 }
 
